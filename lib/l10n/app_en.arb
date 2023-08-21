@@ -1,0 +1,9 @@
+{
+  "language": "Language",
+  "mode": "Mode",
+  "lightMode": "LightMode",
+  "darkMode": "DarkMode",
+  "settings": "Settings",
+  "addNewTask": "Add New Task",
+  "arabic": "English"
+}
