@@ -25,9 +25,8 @@ class _HomeLayoutState extends State<HomeLayout> {
       extendBody: true,
       bottomNavigationBar: BottomAppBar(
         shape: CircularNotchedRectangle(),
-        shadowColor: prov.themeMode == ThemeMode.light
-            ? Colors.white
-            : Colors.blue,
+        shadowColor:
+            prov.themeMode == ThemeMode.light ? Colors.white : Colors.blue,
         color: prov.themeMode == ThemeMode.light
             ? Colors.white
             : Color(0xff141922),
@@ -72,6 +71,7 @@ class _HomeLayoutState extends State<HomeLayout> {
 
   void showTasksModalbuttonSheet() {
     showModalBottomSheet(
+
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
                 topRight: Radius.circular(18), topLeft: Radius.circular(18))),

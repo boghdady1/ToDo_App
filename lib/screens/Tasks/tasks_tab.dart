@@ -6,7 +6,9 @@ class TasksTab extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(  appBar: AppBar(
-        title: Text('To Do', style: Theme.of(context).textTheme.bodyLarge),
+        title: Container(
+            alignment: Alignment.topLeft,
+            child: Text('To Do', style: Theme.of(context).textTheme.bodyLarge)),
     ),)
     ;
   }

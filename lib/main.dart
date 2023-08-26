@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_app/Layout/home_layout.dart';
 import 'package:todo_app/provider/provider.dart';
 import 'package:todo_app/style/theme/My_theme.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 void main() {
   runApp(ChangeNotifierProvider(
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    var prov=Provider.of<MyProvider>(context);
+    var prov = Provider.of<MyProvider>(context);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: HomeLayout.routeName,

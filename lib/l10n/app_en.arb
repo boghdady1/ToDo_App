@@ -5,5 +5,8 @@
   "darkMode": "DarkMode",
   "settings": "Settings",
   "addNewTask": "Add New Task",
-  "arabic": "English"
+  "arabic": "English",
+  "taskTitle": "Task Title",
+  "taskDescription": "Task Description",
+  "selectDate": "Select Date"
 }
